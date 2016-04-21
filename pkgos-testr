@@ -1,0 +1,18 @@
+NAME
+	
+	pkgos-testr - run testes for target python package
+
+SYNOPSIS
+	
+	pkgos-testr <python-version> [<test-scope>]
+
+DESCRIPTION
+
+	Run testes for target python package using the information from .test.conf and
+output information by block. Output block information includes simple massage about
+status of test and brief discription if error.
+
+DEPENDENCIES
+	Python
+		testrepository
+		subunit
